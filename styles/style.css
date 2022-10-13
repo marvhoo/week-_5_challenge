@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+img {
+  height: 725px;
+  width: 100%;
+}
+div {
+  height: 200px;
+}
+.section {
+  width: 23%;
+  height: 375px;
+  margin: 78px;
+  border-radius: 50%;
+  border: 15px solid black;
+}

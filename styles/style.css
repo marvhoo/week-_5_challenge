@@ -10,9 +10,16 @@ div {
   height: 200px;
 }
 .section {
-  width: 23%;
-  height: 375px;
-  margin: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
   border-radius: 50%;
   border: 15px solid black;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
